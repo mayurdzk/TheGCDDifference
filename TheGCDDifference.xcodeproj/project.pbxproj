@@ -12,6 +12,7 @@
 		77D340BB1F4352CA00592BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D340B91F4352CA00592BC0 /* Main.storyboard */; };
 		77D340BD1F4352CA00592BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D340BC1F4352CA00592BC0 /* Assets.xcassets */; };
 		77D340C01F4352CA00592BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D340BE1F4352CA00592BC0 /* LaunchScreen.storyboard */; };
+		77D340C81F43540C00592BC0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D340C71F43540C00592BC0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		77D340BC1F4352CA00592BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D340BF1F4352CA00592BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D340C11F4352CA00592BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D340C71F43540C00592BC0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				77D340BC1F4352CA00592BC0 /* Assets.xcassets */,
 				77D340BE1F4352CA00592BC0 /* LaunchScreen.storyboard */,
 				77D340C11F4352CA00592BC0 /* Info.plist */,
+				77D340C71F43540C00592BC0 /* DetailViewController.swift */,
 			);
 			path = TheGCDDifference;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D340C81F43540C00592BC0 /* DetailViewController.swift in Sources */,
 				77D340B81F4352CA00592BC0 /* ViewController.swift in Sources */,
 				77D340B61F4352CA00592BC0 /* AppDelegate.swift in Sources */,
 			);
@@ -266,7 +270,7 @@
 				DEVELOPMENT_TEAM = FGMG6GZVKT;
 				INFOPLIST_FILE = TheGCDDifference/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Mayur.TheGCDDifference;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.TheGCDDifference;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +283,7 @@
 				DEVELOPMENT_TEAM = FGMG6GZVKT;
 				INFOPLIST_FILE = TheGCDDifference/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Mayur.TheGCDDifference;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.TheGCDDifference;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +308,7 @@
 				77D340C61F4352CA00592BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
